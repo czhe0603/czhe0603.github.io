@@ -8247,6 +8247,16 @@ input, select, textarea {
 		border-top-color: rgba(0, 0, 0, 0.2);
 	}
 
+/* Box */
+.box img {
+	width: 100%;
+	height: 100%;
+}
+
+.box1 img{
+	object-fit: contain;
+}
+
 /* Wrapper */
 
 	#wrapper {
