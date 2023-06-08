@@ -27,7 +27,8 @@
 								Aspiring Software Engineer + UX Designer 👩🏻‍💻<br> 
 							</p>
 							<ul class="actions stacked">
-								<li><a href="/files/ZheChen_Resume.pdf" download class="button big wide smooth-scroll-middle">Download CV</a></li>
+								<!--download class="button big wide smooth-scroll-middle"-->
+								<li><a href="/files/ZheChen_Resume.pdf" target="_blank" rel="noopener" class="button big wide smooth-scroll-middle" >View My CV</a></li>
 								<li><a href="#recentwork" class="button big wide smooth-scroll-middle">Work in Progress</a></li>
 							</ul>
 						</div>
@@ -236,8 +237,8 @@
 					</section>
 
 				<!-- Six -->
-				<section class="wrapper style1 align-center" id="projects">
-					<div class="inner">
+				<section class="wrapper style1" id="projects">
+					<div class="inner align-center">
 						<h2>Related Project Experience</h2>
 						<p>Dive into my recent projects, where my skills as a CS student shine. 
 							Discover captivating UX designs, impressive software engineering feats, 
@@ -247,23 +248,98 @@
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box">
-								<a href="left-sidebar.html" class="image featured"><img src="images/ads_main.png" alt="" /></a>
+								<img src="images/ads_main.png" alt="" />
 								<header>
-									<h3>Interactive Ad Posting WebSite</h3>
+									<h3 class="align-center">Interactive Ad Posting WebSite</h3>
 								</header>
-								<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+								<p>
+									<li>
+										Accomplished a classified ad web application utilizing <b>Django framework</b> and a backend database, 
+										showcasing expertise in <b>full-stack development</b> and proficient <b>database management</b>.
+									</li>
+									<li>
+										Successfully implemented social login integration utilizing industry-standard authentication protocols, 
+										integrating GitHub accounts seamlessly to enhance user experience and security.
+									</li>
+									<li>
+										Shoecased strong technical skills in <b>back-end development</b> to introduce essential features, 
+										including image uploading, a comment system, and a favoriting capability, enhancing user engagement and interactivity on the platform.
+									</li>
+								</p>
 								<footer>
 									<ul class="actions">
-										<li><a href="left-sidebar.html" class="button alt">Find out more</a></li>
+										<li><a href="https://czhe.pythonanywhere.com/ads/" target="_blank" class="button alt" >Live Demo</a></li>
+									</ul>
+								</footer>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box onload-align-left">
+								<img src="images/UX.png" alt="" />
+								<header>
+									<br>
+									<h3 class="align-center">Campus Wayfinding UX Case Study</h3>
+								</header>
+								<p> 
+									<li>Skilled in designing and implementing <b>quantitative research methodologies</b>, such as survey design with
+										screener questions, to gather user insights and feedback on the app's usability and functionality.</li><br>
+									<li>Experienced in creating <b>user personas</b>, <b>affinity diagrams</b>, and <b>user journey maps</b> based on research data and survey results, 
+									enhancing the team's understanding of target users, informing user-centered design decisions, 
+									and identifying pain points and opportunities for optimization.</li>
+								</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="images/SI 422 UX Case Study .pdf" target="_blank" class="button alt" >Final Report</a></li>
 									</ul>
 								</footer>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box">
-								<a href="#" class="image featured"><img src="images/UX.png" alt="" /></a>
+								<img src="images/445.png" alt="" />
 								<header>
-									<h3>Campus Wayfinding UX Case Study</h3>
+									<h3  class="align-center">Machine Learning Course Projects</h3>
+								</header>
+								<p>
+									<li>
+										Designed a convolutional neural network with <b>80% accuracy</b> to determine dog breeds based on images.
+									</li>
+									<br>
+									<li>
+										Applied transfer learning and data augmentation on two different models to observe the change in
+										AUROC and accuracy scores; 
+										Explored the connection between the number of frozen layers and its resulting AUROC performance, 
+										reached a conclusion that fine-tune FC layer has the best TEST score while its TRAIN and VAL scores are lower from the aspect of AUROC.
+									</li>
+								</p>
+								<footer>
+									<ul class="actions">
+										<li><a href="#" class="button alt">Find out more</a></li>
+									</ul>
+								</footer>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box">
+								<img src="images/main.png" alt="" />
+								<header>
+									<br>
+									<h3 class="align-center">Battling Imposter Syndrome @ Google</h3>
+								</header>
+								<p><li>Built a <b>full stack</b> web application using a range of Google Cloud Platform APIs: App Engine, Natural Language, and Datestore, to provide guidance for target users with imposter syndrome. </li><br>
+									<li>Developed comprehensive solutions using <b>Java</b>, <b>JavaScript</b>, <b>HTML</b>, and <b>CSS</b> to deliver tailored support and assistance, spanning both frontend and backend components.</li></p>
+								<footer>
+									<ul class="actions">
+										<li><a href="https://github.com/czhe0603/sps-imposter-syndrome" target="_blank" class="button alt">GitHub Repo</a></li>
+									</ul>
+								</footer>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box">
+								<img src="images/Django.png" alt="" />
+								<header>
+									<h3 class="align-center">BackEnd: Dynamic Library Hub</h3>
 								</header>
 								<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
 								<footer>
@@ -275,57 +351,26 @@
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box">
-								<a href="#" class="image featured"><img src="images/445.png" alt="" /></a>
+								<img src="images/Feebackly.png" alt="" />
 								<header>
-									<h3>Machine Learning Course Projects</h3>
+									<br>
+									<h3 class="align-center">Job Seeking Platform - Feebackly</h3>
 								</header>
-								<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+								<p>
+									<li>
+										Collaborated closely with the product team to conceptualize and design an intuitive and user-friendly
+										platform that will offer paid access to personalized, comprehensive feedback from experienced recruiters.
+									</li>
+									<br>
+									<li>
+										Incorporated cutting-edge technology, including the potential integration of ChatGPT 3.5, to enhance the
+										depth and quality of feedback provided to users, maximizing the value of their investment.
+									</li>
+
+								</p>
 								<footer>
 									<ul class="actions">
-										<li><a href="#" class="button alt">Find out more</a></li>
-									</ul>
-								</footer>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box">
-								<a href="#" class="image featured"><img src="images/main.png" alt="" /></a>
-								<header>
-									<h3>Battling Imposter Syndrome @ Google</h3>
-								</header>
-								<p>Built a <b>full stack</b> web application using a range of Google Cloud Platform APIs: App Engine, Natural Language, and Datestore, to provide guidance for target users with imposter syndrome. <br>
-									Developed comprehensive solutions using Java, JavaScript, HTML, and CSS to deliver tailored support and assistance, spanning both frontend and backend components.</p>
-								<footer>
-									<ul class="actions">
-										<li><a href="#" class="button alt">Find out more</a></li>
-									</ul>
-								</footer>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box">
-								<a href="#" class="image featured"><img src="images/Django.png" alt="" /></a>
-								<header>
-									<h3>BackEnd: Dynamic Library Hub</h3>
-								</header>
-								<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-								<footer>
-									<ul class="actions">
-										<li><a href="#" class="button alt">Find out more</a></li>
-									</ul>
-								</footer>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box">
-								<a href="#" class="image featured"><img src="images/Feebackly.png" alt="" /></a>
-								<header>
-									<h3>Job Seeking Platform - Feebackly</h3>
-								</header>
-								<p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
-								<footer>
-									<ul class="actions">
-										<li><a href="#" class="button alt">Find out more</a></li>
+										<li><a href="https://drive.google.com/drive/folders/1Tzm9sxJiqXkMxtNdEWJC38b0bzXcFuU9" target="_blank" class="button alt">Design Review + Report</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -342,10 +387,10 @@
 							<ul class="icons">
 								<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-								<li><a href="https://github.com/czhe0603" class="icon brands fa-github" ><span class="label">Github</span></a></li>
-								<li><a href="https://www.instagram.com/czhe0603/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://www.linkedin.com/in/czhe-luna/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="mailto:czhe@umich.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://github.com/czhe0603" target="_blank" rel="noopener" class="icon brands fa-github" ><span class="label">Github</span></a></li>
+								<li><a href="https://www.instagram.com/czhe0603/" target="_blank" rel="noopener" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://www.linkedin.com/in/czhe-luna/" target="_blank" rel="noopener" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="mailto:czhe@umich.edu" target="_blank" rel="noopener" class="icon fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 						</div>
 					</footer>
